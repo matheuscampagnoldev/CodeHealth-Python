@@ -21,7 +21,7 @@ O projeto foi construído do zero como exercício prático dos fundamentos da li
 - ✅ Contagem de funções (`def`)
 - ✅ Sinalização de funções longas (mais de 20 linhas) como candidatas a refatoração
 - ✅ Sinalização de linhas longas (mais de 79 caracteres, padrão PEP8)
-- ✅ Nota final de saúde do código, de 0 a 100, baseada no conjunto das métricas
+- ✅ Nota final de saúde do código, de 0 a 10, baseada no conjunto das métricas
 
 ## 🛠️ Tecnologias e conceitos aplicados
 

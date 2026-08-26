@@ -27,7 +27,6 @@ def contador_funcoes(n):
                             funcoes += 1
             return funcoes
 
-
 def funcoes_longas(n):
 
     linhas_totais =  0   

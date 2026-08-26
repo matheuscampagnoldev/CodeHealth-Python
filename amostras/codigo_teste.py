@@ -4,49 +4,21 @@ def funcao1():
     print('Linha 3')
     print('Linha 4')
     print('Linha 5')
-    print('Linha 6')
-    print('Linha 7')
-    print('Linha 8')
-    print('Linha 9')
-    print('Linha 10')
-    print('Linha 11')
-    print('Linha 12')
-    print('Linha 13')
-    print('Linha 14')
-    print('Linha 15')
-    print('Linha 16')
-    print('Linha 17')
-    print('Linha 18')
-    print('Linha 19')
-    print('Linha 20')
-    print('Linha 21')
-    print('Linha 22')
-    print('Linha 23')
-    print('Linha 24')
 
 
-def funcao2():
-    print('Linha 1')
-    print('Linha 2')
-    print('Linha 3')
-    print('Linha 4')
-    print('Linha 5')
-    print('Linha 6')
-    print('Linha 7')
-    print('Linha 8')
-    print('Linha 9')
-    print('Linha 10')
-    print('Linha 11')
-    print('Linha 12')
-    print('Linha 13')
-    print('Linha 14')
-    print('Linha 15')
-    print('Linha 16')
-    print('Linha 17')
-    print('Linha 18')
-    print('Linha 19')
-    print('Linha 20')
-    print('Linha 21')
-    print('Linha 22')
-    print('Linha 23')
-    print('Linha 24')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

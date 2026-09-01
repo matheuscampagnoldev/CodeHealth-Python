@@ -94,12 +94,29 @@ def funcoes_longas(n):
 
 def linhas_longas(n):
     with open(n, 'r', encoding='utf-8') as arquivo:
-        linhas_grandes = 0
+        linhas = []
+        linhas_totais = 0
 
         for l in arquivo:
-             if len(l.replace('\n', '')) > 79:
-                linhas_grandes += 1
-        return linhas_grandes
+
+            linhas_totais += 1
+             
+            if len(l.replace('\n', '')) > 79:
+                linhas.append(linhas_totais)
+
+        return linhas
+
+def contar_classes(n):
+
+    classes = 0
+
+    with open(n, 'r', encoding='utf-8') as arquivo:
+          
+        for l in arquivo:
+            if l.strip().startswith('class '):
+                classes += 1
+            
+        return classes
 
 
 def proporcao_comentarios(n):
@@ -119,7 +136,7 @@ def nota_programa(n):
     nota = 10
 
     funcoeslongas = len(funcoes_longas(n))
-    linhasgrandes = linhas_longas(n)
+    linhasgrandes = len(linhas_longas(n))
     proporcaocomentarios = proporcao_comentarios(n)
 
     if funcoeslongas == 0:

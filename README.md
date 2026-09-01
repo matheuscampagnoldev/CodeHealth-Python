@@ -77,6 +77,7 @@ Linhas do codigo: 273
 Comentários: 3
 Proporção: 1.10%
 Funções: 24
+Classes: 0
 Funções longas: 5
   - ler_texto -> 24
   - cadastro -> 46
